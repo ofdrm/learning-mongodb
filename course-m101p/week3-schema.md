@@ -1,4 +1,4 @@
-Week 3 · Schema Design
+# Week 3 · Schema Design
 
 ### General considerations
 
