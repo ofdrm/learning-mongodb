@@ -1,14 +1,4 @@
-# M101P · Week 2 · CRUD
-
-Reading notes and homework related to [Week 2: CRUD](https://education.mongodb.com/courses/10gen/M101P/2014_February/courseware/Week_2_CRUD/). A hearty part of the course, about 5 hours study and 45 min. homework.
-
-## Homework
-
-* [Homework 2.1](hw2-1-answer.md) Find all exam scores greater than or equal to 65, and sort those scores from lowest to highest  `db.grades.find( { "score": { $gte: 65}}).sort( { "score": 1})`
-* [Homework 2.2](hw2-2-answer.md) Identity of the student with the highest average in the class
-* [Homework 2.3](hw2-3-answer.md) Adapt `userDAO.py` to add a new user upon sign-up and validate a login by retrieving the right user document.
-
-## Recap
+# Week 2 · CRUD
 
 ### CRUD, Mongo Shell and BSON types
 
