@@ -1,3 +1,5 @@
+# Week 4 Performance
+
 ### Indexes
 
 * Creating an index: `db.students.ensureIndex({ student_id: 1, class: -1})` puts a composite index on field `student_id`, in ascending order, and on field `class`, in descending order; order has no effect on searching, but makes a difference when sorting on these fields
