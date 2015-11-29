@@ -1,19 +1,10 @@
-# M101P · Week 5 · Aggregation Framework
-
-Notes and homework related to [Week 5: Aggregation Framework](https://education.mongodb.com/courses/10gen/M101P/2014_February/courseware/Week_5_Aggregation_Framework/).
- 
-## Homework
-
-* [Homework 5.1](hw5-1-answer.md)
-* [Homework 5.2](hw5-2-answer.md)
-* [Homework 5.3](hw5-3-answer.md)
-* [Homework 5.4](hw5-4-answer.md)
+Week 5 · Aggregation Framework
 
 ## Additional resources
 
 * [Aggregation reference](http://docs.mongodb.org/manual/reference/aggregation/) (MongoDB Manual)
 
-## Recap
+## Notes
 
 * Simple example: `db.products.aggregate([ { $group: { _id: "$manufacturer", num_products: { $sum: 1}}}])` returns a document with fields `_id` and `num_products`, containing a product count per manufacturer
 * Compound grouping: `db.products.aggregate([ { $group: { _id: { "manufacturer": "$manufacturer", "category": "$category" }, num_products: { $sum: 1}}}])` is similar to `SELECT manufacturer, category, COUNT(*) FROM products GROUP BY manufacturer, category`
