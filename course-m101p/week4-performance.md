@@ -1,16 +1,3 @@
-# M101P · Week 4 · Performance
-
-Notes and homework related to [Week 4: Performance](https://education.mongodb.com/courses/10gen/M101P/2014_February/courseware/Week_4_Performance/). 3 hours 45 min. of videos and notes, 45 min. of homework.
-
-## Homework
-
-* [Homework 4.1](hw4-1-answer.md) Which of the following queries can utilize an index?
-* [Homework 4.2](hw4-2-answer.md) What can you infer from the following `explain` output? 
-* [Homework 4.3](hw4-3-answer.md) Making the blog fast
-* [Homework 4.4](hw4-4-answer.md) Analyze a profile log taken from a mongoDB instance
-
-## Recap
-
 ### Indexes
 
 * Creating an index: `db.students.ensureIndex({ student_id: 1, class: -1})` puts a composite index on field `student_id`, in ascending order, and on field `class`, in descending order; order has no effect on searching, but makes a difference when sorting on these fields
